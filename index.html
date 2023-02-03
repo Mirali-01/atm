@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chase</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://w7.pngwing.com/pngs/368/337/png-transparent-chase-bank-jpmorgan-chase-car-finance-loan-chase-blue-angle-text-thumbnail.png">
+    </head>
+    <body>
+        <!-- titleContainer -->
+        <div class="titleContainer"></div>
+
+        <!-- mainContainer -->
+        <div class="mainContainer">
+
+            <!-- leftContainer -->
+            <div class="leftContainer">
+                <!-- touchScreen -->
+                <div class="mainScreen" > Enter Pin: </div>
+                    <div class="screenOpt">
+                    <div class="screenOptions1">
+                        <button class="options" id="deposit" onclick="depositAmount()" >Deposit</button>
+                        <button class="options" id="withdraw" onclick="withdrawAmount()" >Withdraw</button>
+                    </div>
+                    <div class="screenOptions2">
+                        <button class="options" id="balance" onclick="checkBalance()" >Balance</button>
+                        <button class="options" id="transfer" onclick="viewTransactions()" >Transactions</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- rightContainer -->
+            <div class="rightContainer">
+                <!-- top -->
+                <div class="topContainer">
+                    <!-- checkIn -->
+                    <div class="checkIn"></div>
+                    <!-- reciept -->
+                    <div class="reciept"></div>
+                    <!-- insertCard -->
+                    <div class="insertCard"></div>
+                </div>
+                
+                <!-- middleContainer -->
+                <div class="middleContainer">
+                    <!-- tapToScan -->
+                    <div class="tapToScan"></div>
+                    <!-- cardSlot -->
+                    <div class="cardSlot"></div>                    
+                </div>
+
+                <!-- bottom -->
+                <div class="bottomContainer">
+                    <!-- keypad -->
+                    <div class="keypad">
+                        <!-- numKeys -->
+                        <div class="numKeys">
+                            <div class="numTo3">
+                                <button class="numkey" onclick="addToScreen(1)" >1</button>
+                                <button class="numkey" onclick="addToScreen(2)" >2</button>
+                                <button class="numkey" onclick="addToScreen(3)" >3</button>
+                            </div>
+                            <div class="numTo6">
+                                <button class="numkey" onclick="addToScreen(4)" >4</button>
+                                <button class="numkey" onclick="addToScreen(5)" >5</button>
+                                <button class="numkey" onclick="addToScreen(6)" >6</button>
+                            </div>
+                            <div class="numTo9">
+                                <button class="numkey" onclick="addToScreen(7)" >7</button>
+                                <button class="numkey" onclick="addToScreen(8)" >8</button>
+                                <button class="numkey" onclick="addToScreen(9)" >9</button>
+                            </div>
+                            <div class="num0">
+                                <button class="numkey" onclick="addToScreen(0)" >0</button>
+                            </div>
+                        </div>
+                        <!-- wordKeys -->
+                        <div class="wordKeys">
+                            <div class="enter">
+                                <button class="wordkey" onclick="enter()" >Enter</button>
+                            </div>
+                            <div class="clear">
+                                <button class="wordkey" onclick="clearScreen()" >Clear</button>
+                            </div>
+                            <div class="cancel">
+                                <button class="wordkey"  onclick="cancel()" >Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- cash -->
+            <div class="cash">
+                <!-- cashInOut -->
+                <div class="cashInOut">
+                    <h1>Cash In/Out</h1>
+                </div>
+            </div>
+                
+
+        <script src="app.js" async defer></script>
+    </body>
+</html>

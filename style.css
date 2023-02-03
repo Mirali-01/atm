@@ -1,0 +1,131 @@
+.titleContainer {
+    /* border: solid red; */
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    background-image: url("https://www.pngitem.com/pimgs/m/96-961712_the-chase-bank-logo-lettering-chase-bank-logo.png");
+    background-size: cover;
+}
+
+.mainContainer {
+    border: solid blue;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftContainer {
+    border: solid purple;
+    height: 480px;
+    width: 45%;
+}
+
+.mainScreen {
+    border: solid tan;
+    height: 410px;
+    width: 95%;
+    margin: auto;
+}
+
+.screenOpt {
+    /* border: solid hotpink; */
+    background-color: whitesmoke;
+    height: 60px;
+    width: 95%;
+    margin: auto;
+    display: grid;
+}
+
+.screenOptions1,
+.screenOptions2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.rightContainer {
+    border: solid lavender;
+    height: 480px;
+    width: 45%;
+}
+
+.topContainer {
+    border: solid green;
+    height: 70px;
+    width: 90%;
+    margin: auto;
+}
+
+.middleContainer {
+    border: solid firebrick;
+    height: 70px;
+    width: 90%;
+    margin: auto;
+}
+
+.bottomContainer {
+    /* border: solid salmon; */
+    height: 325px;
+    width: 90%;
+    margin: auto;
+}
+
+.options {
+    height: 100%;
+    width: 100%;
+}
+
+.keypad {
+    /* border: solid gray; */
+    height: 320px;
+    width: 95%;
+    margin: auto;
+}
+
+.numKeys {
+    border: solid steelblue;
+    background-color: steelblue;
+    height: 225px;
+    width: 95%;
+    margin: auto;
+}
+
+.numTo3,
+.numTo6,
+.numTo9,
+.num0 {
+    /* border: solid steelblue; */
+    height: 50px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numkey {
+    height: 25px;
+    width: 30%;
+    margin-top: 12px;
+}
+
+.wordKeys {
+    /* border: solid sienna; */
+    background-color: lightslategray;
+    height: 80px;
+    width: 96.5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wordkey {
+    margin-top: 30px;
+}
+
+.cash {
+    border: solid maroon;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
